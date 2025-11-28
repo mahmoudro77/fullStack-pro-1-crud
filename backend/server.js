@@ -8,7 +8,7 @@ const userRoutes = require("./routes/userRoutes");
 const app = express();
 app.use(
   cors({
-    origin: "https://<frontend-url>.onrender.com",
+    origin: "https://fullstack-pro-1-crud-1.onrender.com",
   })
 );
 app.use(express.json());
